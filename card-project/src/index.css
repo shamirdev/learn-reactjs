@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #111;
+}
+
+.parent {
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.container {
+  background-color: #ffffff;
+  height: 25em;
+  width: 23em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.top img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+
+.top button {
+  height: 30px;
+  width: 70px;
+  margin-top: 10px;
+  color: #dadada;
+  border: none;
+  border-radius: 7px;
+  color: #aaa9a9;
+  border: 1px solid #aaa9a9;
+}
+
+.midSection {
+  /* background-color: antiquewhite; */
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 45px;
+  margin-left: 15px;
+}
+
+.comapnyNamePostedTime {
+  display: flex;
+  gap: 10px;
+}
+
+.badges {
+  display: flex;
+  gap: 10px;
+
+}
+
+.badgealignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border-top: 2px solid gray;
+}
+
+.bottom button {
+  height: 35px;
+  width: 90px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+}
