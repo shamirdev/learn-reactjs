@@ -1,4 +1,5 @@
 import React from 'react'
+//importing axios 
 import axios from 'axios'
 
 const App = () => {
@@ -18,8 +19,8 @@ const App = () => {
   }
   return (
     <div>
-      <button onClick={fetchGetData}>Using fetch Data Lao</button>
-      <button style={{marginLeft:"10px"}} onClick={axiosGetData}>Using axios Data Lao</button>
+      <button style={{background: "red", padding:"15px 25px", marginRight:"10px"}} onClick={fetchGetData}>Data is coming using fetch.</button>
+      <button style={{marginLeft:"10px", background: "red", padding:"15px 25px"}} onClick={axiosGetData}>Data is coming using axios.</button>
     </div>
   )
 }
