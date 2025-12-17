@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+}
+
+.nav {
+  background-color: rgb(194, 149, 12);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.nav div {
+  display: flex;
+  gap: 60px;
+  position: relative;
+  right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav h1 {
+  position: relative;
+  left: 20px;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
