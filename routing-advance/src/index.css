@@ -37,6 +37,13 @@ h1 {
   color: white;
   display: flex;
   justify-content: center;
+  text-transform: capitalize;
+}
 
+.navigateButton button{
+  background-color: rgb(84, 110, 34);
+  color: black;
+  padding: 10px;
+  margin-left: 10px;
 }
 
