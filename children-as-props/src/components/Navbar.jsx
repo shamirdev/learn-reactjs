@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <h2>Children as a props</h2>
-      <Nav2 theme={theme}>
+      <Nav2 theme={theme} setTheme={setTheme}>
         <h1>First Children</h1>
         <h1>Ssecond Children</h1>
       </Nav2>
